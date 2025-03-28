@@ -1,0 +1,153 @@
+[
+    {
+      "studentId": "65123456",
+      "email": "11",
+      "password": "12",
+      "firstName": "สมชาย",
+      "lastName": "ใจดี",
+      "profilePicture": "profile1.jpg",
+      "year": 4,
+      "major": "วิทยาการคอมพิวเตอร์",
+      "currentSemesterCourses": [
+        {
+          "courseId": "CS101",
+          "courseName": "พื้นฐานวิทยาการคอมพิวเตอร์",
+          "grade": null
+        },
+        {
+          "courseId": "MATH101",
+          "courseName": "แคลคูลัส 1",
+          "grade": null
+        }
+      ],
+      "previousSemesterCourses": [
+        {
+          "semester": "2/2566",
+          "courses": [
+            {
+              "courseId": "ENG101",
+              "courseName": "การเขียนภาษาอังกฤษ",
+              "grade": "A"
+            },
+            {
+              "courseId": "PHYS101",
+              "courseName": "ฟิสิกส์ 1",
+              "grade": "B+"
+            }
+          ]
+        },
+        {
+          "semester": "1/2566",
+          "courses": [
+            {
+              "courseId": "CHEM101",
+              "courseName": "เคมีทั่วไป",
+              "grade": "B+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": "65654321",
+      "email": "student2@example.com",
+      "password": "password456",
+      "firstName": "สมหญิง",
+      "lastName": "น่ารัก",
+      "profilePicture": "profile2.jpg",
+      "year": 3,
+      "major": "วิศวกรรมซอฟต์แวร์",
+      "currentSemesterCourses": [
+        {
+          "courseId": "CS201",
+          "courseName": "โครงสร้างข้อมูล",
+          "grade": null
+        }
+      ],
+      "previousSemesterCourses": [
+        {
+          "semester": "2/2566",
+          "courses": [
+            {
+              "courseId": "MATH201",
+              "courseName": "พีชคณิตเชิงเส้น",
+              "grade": "C+"
+            }
+          ]
+        },
+        {
+          "semester": "1/2566",
+          "courses": [
+            {
+              "courseId": "PHYS101",
+              "courseName": "ฟิสิกส์ 1",
+              "grade": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": "65789012",
+      "email": "student3@example.com",
+      "password": "password789",
+      "firstName": "สุดา",
+      "lastName": "เก่งมาก",
+      "profilePicture": "profile3.jpg",
+      "year": 2,
+      "major": "เคมี",
+      "currentSemesterCourses": [
+        {
+          "courseId": "CHEM101",
+          "courseName": "เคมีทั่วไป",
+          "grade": null
+        },
+        {
+          "courseId": "HIST101",
+          "courseName": "ประวัติศาสตร์โลก",
+          "grade": null
+        }
+      ],
+      "previousSemesterCourses": [
+        {
+          "semester": "2/2566",
+          "courses": [
+            {
+              "courseId": "CS101",
+              "courseName": "พื้นฐานวิทยาการคอมพิวเตอร์",
+              "grade": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "studentId": "65210987",
+      "email": "student4@example.com",
+      "password": "password012",
+      "firstName": "วิชัย",
+      "lastName": "ขยันเรียน",
+      "profilePicture": "profile4.jpg",
+      "year": 1,
+      "major": "คณิตศาสตร์",
+      "currentSemesterCourses": [
+        {
+          "courseId": "MATH201",
+          "courseName": "พีชคณิตเชิงเส้น",
+          "grade": null
+        }
+      ],
+      "previousSemesterCourses": [
+        {
+          "semester": "2/2566",
+          "courses": [
+            {
+              "courseId": "MATH101",
+              "courseName": "แคลคูลัส 1",
+              "grade": "A-"
+            }
+          ]
+        }
+      ]
+    }
+  ]

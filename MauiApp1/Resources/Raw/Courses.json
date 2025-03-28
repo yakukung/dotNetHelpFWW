@@ -1,0 +1,58 @@
+[
+  {
+    "courseId": "CS101",
+    "courseName": "พื้นฐานวิทยาการคอมพิวเตอร์",
+    "credits": 3,
+    "instructor": "อาจารย์สมศักดิ์",
+    "schedule": "Mon, Wed 10:00-11:30"
+  },
+  {
+    "courseId": "MATH101",
+    "courseName": "แคลคูลัส 1",
+    "credits": 4,
+    "instructor": "อาจารย์สมศรี",
+    "schedule": "Tue, Thu 13:00-14:30"
+  },
+  {
+    "courseId": "ENG101",
+    "courseName": "การเขียนภาษาอังกฤษ",
+    "credits": 3,
+    "instructor": "อาจารย์จอห์น",
+    "schedule": "Fri 9:00-12:00"
+  },
+    {
+    "courseId": "PHYS101",
+    "courseName": "ฟิสิกส์ 1",
+    "credits": 4,
+    "instructor": "อาจารย์เดวิด",
+    "schedule": "Tue, Thu 13:00-14:30"
+  },
+      {
+    "courseId": "CS201",
+    "courseName": "โครงสร้างข้อมูล",
+    "credits": 3,
+    "instructor": "อาจารย์สมชาย",
+    "schedule": "Mon, Wed 10:00-11:30"
+  },
+      {
+    "courseId": "MATH201",
+    "courseName": "พีชคณิตเชิงเส้น",
+    "credits": 4,
+    "instructor": "อาจารย์สมศรี",
+    "schedule": "Tue, Thu 13:00-14:30"
+  },
+  {
+    "courseId": "CHEM101",
+    "courseName": "เคมีทั่วไป",
+    "credits": 3,
+    "instructor": "อาจารย์สุภาพร",
+    "schedule": "Mon, Wed 13:00-14:30"
+  },
+  {
+    "courseId": "HIST101",
+    "courseName": "ประวัติศาสตร์โลก",
+    "credits": 3,
+    "instructor": "อาจารย์วิชัย",
+    "schedule": "Tue, Thu 10:00-11:30"
+  }
+]
