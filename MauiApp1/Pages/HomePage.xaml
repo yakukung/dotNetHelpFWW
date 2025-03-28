@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPro.Pages.HomePage"
+             Title="หน้าหลัก">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <!-- User Information Card -->
+            <Frame CornerRadius="10" BorderColor="LightGray" Padding="15" Margin="0,10,0,20">
+                <VerticalStackLayout Spacing="10">
+                    <!-- Profile Image -->
+                    <Image Source="{Binding ProfilePicture}" HeightRequest="120" WidthRequest="120" 
+       HorizontalOptions="Center" Margin="0,0,0,10" />
+                    
+                    <Label Text="ข้อมูลนิสิต" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+                    
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="10" ColumnSpacing="15">
+                        <!-- Student ID -->
+                        <Label Grid.Row="0" Grid.Column="0" Text="รหัสนิสิต:" FontAttributes="Bold" />
+                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding StudentId}" />
+                        
+                        <!-- Full Name -->
+                        <Label Grid.Row="1" Grid.Column="0" Text="ชื่อ-นามสกุล:" FontAttributes="Bold" />
+                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding FullName}" />
+                        
+                        <!-- Year -->
+                        <Label Grid.Row="2" Grid.Column="0" Text="ชั้นปี:" FontAttributes="Bold" />
+                        <Label Grid.Row="2" Grid.Column="1" Text="{Binding Year}" />
+                        
+                        <!-- Major -->
+                        <Label Grid.Row="3" Grid.Column="0" Text="สาขา:" FontAttributes="Bold" />
+                        <Label Grid.Row="3" Grid.Column="1" Text="{Binding Major}" />
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <!-- Navigation Buttons -->
+            <Button Text="ข้อมูลส่วนตัว" Command="{Binding NavigateToProfilePageCommand}" 
+                    BackgroundColor="#4CAF50" TextColor="White" Margin="0,5" />
+                    
+            <Button Text="ลงทะเบียนเรียนภาคปัจจุบัน" Command="{Binding NavigateToCurrentTermRegistrationPageCommand}" 
+                    BackgroundColor="#2196F3" TextColor="White" Margin="0,5" />
+                    
+            <Button Text="ค้นหารายวิชา" Command="{Binding NavigateToSearchCoursesPageCommand}" 
+                    BackgroundColor="#FF9800" TextColor="White" Margin="0,5" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

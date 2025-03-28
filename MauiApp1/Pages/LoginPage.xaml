@@ -1,0 +1,45 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppPro.Pages.LoginPage"
+             BackgroundColor="#FF48FAAA" 
+             Shell.NavBarIsVisible="False"
+             Title="Login">
+             
+    <VerticalStackLayout Spacing="20" Padding="30" VerticalOptions="Center">
+        <Label Text="Login"
+               FontSize="40"
+               FontAttributes="Bold"
+               TextColor="White" 
+               HorizontalOptions="Center"
+               Margin="0, 30, 0, 20"/>
+
+        <Entry x:Name="usernameEntry"
+               Placeholder="Username"
+               PlaceholderColor="#FF0EED68" 
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0, 5"
+               HorizontalTextAlignment="Center"
+               HeightRequest="50"
+               Text="{Binding Email}" />  <!-- Binding Email ใน ViewModel -->
+
+        <Entry x:Name="passwordEntry"
+               IsPassword="true"
+               Placeholder="Password"
+               PlaceholderColor="#FF0EED68" 
+               BackgroundColor="White"
+               TextColor="Black"
+               Margin="0, 5"
+               HorizontalTextAlignment="Center"
+               HeightRequest="50"
+               Text="{Binding Password}" />  <!-- Binding Password ใน ViewModel -->
+
+        <Button Text="Login"
+                TextColor="White"
+                BackgroundColor="#388E3C" 
+                CornerRadius="10"
+                HeightRequest="50"
+                Margin="0, 20, 0, 0"
+                Command="{Binding LoginCommand}" />  <!-- Binding Command จาก ViewModel -->
+    </VerticalStackLayout>
+</ContentPage>
